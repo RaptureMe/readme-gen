@@ -1,8 +1,8 @@
 function generateReadme(answers) {
-    // Replace semicolons with newline characters in the description
-    const description = answers.description.replace(/;/g, '\n');
-    const installation = answers.installation.replace(/;/g, '\n');
-    const credits = answers.credits.replace(/;/g, '\n');
+    //Added linebreak feature for common places to linebreak in README file.
+    const description = answers.description.replace(/;/g, '<br/>');
+    const installation = answers.installation.replace(/;/g, '<br/>');
+    const credits = answers.credits.replace(/;/g, '<br/>');
     return `# ${answers.title}
   
   ## Description 
@@ -36,5 +36,6 @@ function generateReadme(answers) {
   `;
   }
   
+  //exports to index.js
   module.exports = generateReadme;
   

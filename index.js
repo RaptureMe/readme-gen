@@ -2,6 +2,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateReadme = require('./generateReadme');
 
+//Calls function for all the prompts to generate in README
 inquirer.prompt([
   {
     type: 'input',
@@ -33,9 +34,9 @@ inquirer.prompt([
     message: 'Enter the license for your project:',
     name: 'license',
   },
-  // Add more prompts for the other sections
-]).then((res) => {
-  fs.writeFile('README.md', generateReadme(res), (err) =>
+  //Takes the data and writes into README.md
+]).then((data) => {
+  fs.writeFile('README.md', generateReadme(data), (err) =>
     err ? console.log(err) : console.log('Successfully created README.md!')
   );
 });
