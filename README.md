@@ -1,8 +1,8 @@
-# Another darn test
+# Justs Madlibs
   
   ## Description 
   
-  This is cool<br/>---Linebreak?<br/>----More linebreak!?
+  -Game for kids<br/>Has a bunch of cool features!
   
   ## Table of Contents
   
@@ -10,22 +10,31 @@
   - [Usage](#usage)
   - [Credits](#credits)
   - [License](#license)
+  - [Questions](#questions)
   
   
   ## Installation
   
-  1.nodejs<br/>2.npm inquirer
+  1. Install the NPM<br/>2. Play game!
   
   ## Usage
   
-  screenshotz
+  Screenshot
+  
+  ![alt text](assets/images/screenshot.png)
   
   ## Credits
   
-  logan garland<br/>david cox
+  1. Justin Rosu
   
   ## License
   
-  None
+  MIT[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+  ## Questions
+  
+  if you'd like to reach me with questions, my github is:
+  my github is: [Click Here!](https://github.com/RaptureMe)
+  my best contact email is raptureme
   
   

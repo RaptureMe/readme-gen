@@ -30,9 +30,20 @@ inquirer.prompt([
     name: 'credits',
   },
   {
-    type: 'input',
-    message: 'Enter the license for your project:',
+    type: 'list',
+    message: 'Choose the license for your project:',
     name: 'license',
+    choices: ['MIT', 'Mozilla', 'IBM', 'None'],
+  },
+  {
+    type: 'input',
+    message: 'What is your github username:',
+    name: 'github',
+  },
+  {
+    type: 'input',
+    message: 'What is best contact email:',
+    name: 'email',
   },
   //Takes the data and writes into README.md
 ]).then((data) => {
