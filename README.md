@@ -1,8 +1,8 @@
-# Justs Madlibs
+# ReadMe Generator
   
   ## Description 
   
-  -Game for kids<br/>Has a bunch of cool features!
+  This will create a readme directly from terminal!<br/>Simply run the command line, instructions below.
   
   ## Table of Contents
   
@@ -15,17 +15,17 @@
   
   ## Installation
   
-  1. Install the NPM<br/>2. Play game!
+  1. NPM Inquirer 2. NodeJS
   
   ## Usage
   
-  Screenshot
+  Screenshots below:
   
   ![alt text](assets/images/screenshot.png)
   
   ## Credits
   
-  1. Justin Rosu
+  UCI Bootcamp!<br/>1. Logan Garland<br/> 2. David Cox
   
   ## License
   
@@ -35,6 +35,6 @@
   
   if you'd like to reach me with questions, my github is:
   my github is: [Click Here!](https://github.com/RaptureMe)
-  my best contact email is raptureme
+  my best contact email is arosu4u@gmail.com
   
   
